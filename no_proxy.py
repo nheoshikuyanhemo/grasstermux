@@ -70,7 +70,7 @@ async def connect_to_wss(user_id):
 
 
 async def main():
-    # TODO user_id
+    # TODO Modify user_id
     _user_id = ''
     await connect_to_wss(_user_id)
 
