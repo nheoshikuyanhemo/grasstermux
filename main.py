@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time     :2023/12/26 17:00
-# @Author   :ym
+# @Author   :ym modified by zorg
 # @File     :main.py
 # @Software :PyCharm
 import asyncio
@@ -72,9 +72,9 @@ async def connect_to_wss(socks5_proxy, user_id):
 
 
 async def main():
-    # TODO 修改user_id
+    # TODO Modify user_id
     _user_id = 'user_id'
-    # TODO 修改代理列表
+    # TODO Modify the proxy list
     socks5_proxy_list = [
         'socks5://user:pwd@ip:port',
     ]
@@ -83,5 +83,5 @@ async def main():
 
 
 if __name__ == '__main__':
-    # # 运行主函数
+    # # Run the main function 
     asyncio.run(main())
