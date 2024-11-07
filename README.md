@@ -46,11 +46,11 @@ run your ssh
 (ssh YourUserID@YourIP -p port)
 ###### example: 
 
-    ssh u0_225@198.172.1.254 -p 8022
+    ssh u0_a308@192.168.1.8 -p 8022
 
 then submit your password to agree to login to SSH , you will automatically return to the initial folder, then go to the getgrass_bot folder:
 
-    cd getgrass_bot
+    cd GrasTermux
 
 4. Get user id 
 //go to your getgrass dashboard on mises browser,
