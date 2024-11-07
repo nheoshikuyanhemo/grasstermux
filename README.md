@@ -90,9 +90,11 @@ edit file no_proxy.py:
 #
 async def main():
 
-    # TODO Modify user_id
-    _user_id = ''
-    await connect_to_wss(_user_id)
+ #TODO Modify user_id
+ 
+  _user_id = ''
+  
+  await connect_to_wss(_user_id)
     
 #
 fill in the _user_d = 'with your userid'
