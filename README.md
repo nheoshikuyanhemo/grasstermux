@@ -60,14 +60,21 @@ then submit your password to agree to login to SSH , you will automatically retu
 
     cd GrasTermux
 
-4. Get user id 
+4. Get user id
 //go to your getgrass dashboard on mises browser,
+
 //Open Dev Tools,
+
 //refresh dashboard getgrass,
+
 //open Devtool page,
+
 //open page network, Search for "user" in devtools search.
-//click {i} RetrieveUser
+
+//click {!}RetrieveUser
+
 //Go to response tab.
+
 //copy user id
 
 # back to termux 
@@ -76,17 +83,17 @@ edit file no_proxy.py:
     nano no_proxy.py
 
 ##### Look for the line that contains:
-
+#
 async def main():
     # TODO Modify user_id
     _user_id = ''
     await connect_to_wss(_user_id)
     
-
+#
 fill in the _user_d = 'with your userid'
 Save 
 Click the CTRL button, then X, then Y, then Enter. 
-
+#
 5. run python
 
        python no_proxy.py
