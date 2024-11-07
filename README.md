@@ -1,4 +1,4 @@
-# GrasTermux
+# Grass Termux
 
 register Grass https://app.getgrass.io/register/?referralCode=zaS_ajz8z7OExq-
 #
