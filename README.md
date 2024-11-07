@@ -1,4 +1,7 @@
 # GrasTermux
+
+register Grass https://app.getgrass.io/register/?referralCode=zaS_ajz8z7OExq-
+#
 original source from  https://github.com/ymmmmmmmm
 #
 Grass connection in mises browser to termux 
