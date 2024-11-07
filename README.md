@@ -37,7 +37,7 @@ create ssh password:
 
 ##### clone bot folder from github: 
 
-    git clone https://github.com/nheoshikuyanhemo/GrasTermux.git
+    git clone https://github.com/nheoshikuyanhemo/grasstermux.git
 
     cd grasstermux
 
