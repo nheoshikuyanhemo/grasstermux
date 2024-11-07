@@ -14,13 +14,13 @@ If you do anything to your GetGrass account, you do it at your own risk!
 2. required install:
 
        pkg install python
-
+   #
        pip install loguru
-
+   #
        pip install websockets
-
+   #
        pkg install git
-
+   #
        pkg install openss
 
 4. Login SSH
