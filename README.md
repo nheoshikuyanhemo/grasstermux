@@ -64,13 +64,12 @@ then submit your password to agree to login to SSH , you will automatically retu
     cd GrasTermux
 
 4. Get user id
+
 //go to your getgrass dashboard on mises browser,
 
-//Open Dev Tools,
+//open Devtool page,
 
 //refresh dashboard getgrass,
-
-//open Devtool page,
 
 //open page network, Search for "user" in devtools search.
 
