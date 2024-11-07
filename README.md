@@ -67,9 +67,11 @@ then submit your password to agree to login to SSH , you will automatically retu
 
 //go to your getgrass dashboard on mises browser,
 
-//open Devtool page,
+//launch Devtool,
 
 //refresh dashboard getgrass,
+
+//open Devtool page,
 
 //open page network, Search for "user" in devtools search.
 
