@@ -28,7 +28,7 @@ create ssh password:
 
     git clone https://github.com/nheoshikuyanhemo/GrasTermux.git
 
-    cd getgrass_bot
+    cd GrasTermux
 
 run SSH:
 
