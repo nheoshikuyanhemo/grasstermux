@@ -39,7 +39,7 @@ create ssh password:
 
     git clone https://github.com/nheoshikuyanhemo/GrasTermux.git
 
-    cd GrasTermux
+    cd grasstermux
 
 run SSH:
 
@@ -61,7 +61,7 @@ run your ssh
 
 then submit your password to agree to login to SSH , you will automatically return to the initial folder, then go to the getgrass_bot folder:
 
-    cd GrasTermux
+    cd grasstermux
 
 4. Get user id
 
@@ -89,13 +89,16 @@ edit file no_proxy.py:
 ##### Look for the line that contains:
 #
 async def main():
+
     # TODO Modify user_id
     _user_id = ''
     await connect_to_wss(_user_id)
     
 #
 fill in the _user_d = 'with your userid'
+
 Save 
+
 Click the CTRL button, then X, then Y, then Enter. 
 #
 5. run python
