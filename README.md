@@ -4,6 +4,8 @@ register Grass https://app.getgrass.io/register/?referralCode=zaS_ajz8z7OExq-
 #
 original source from  https://github.com/ymmmmmmmm
 #
+watch video tutorial: https://youtu.be/nfclxFfM6Sc?si=O6oyocvXlhkXjYYa
+#
 Grass connection in mises browser to termux 
 #
 Below I will tell you step by step in details how to run your GetGrass extension on Termux.
