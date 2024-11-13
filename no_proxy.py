@@ -27,7 +27,7 @@ async def connect_to_wss(user_id):
             ssl_context.check_hostname = False
             ssl_context.verify_mode = ssl.CERT_NONE
             uri = "wss://proxy2.wynd.network:4650/"
-            server_hostname = "proxy2.wynd.network"
+            server_hostname = "proxy2.wynd.network:4650"
             async with websockets.connect(uri, ssl=ssl_context, extra_headers=custom_headers,
                                           server_hostname=server_hostname) as websocket:
                 async def send_ping():
