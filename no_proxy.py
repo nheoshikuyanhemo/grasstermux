@@ -26,8 +26,8 @@ async def connect_to_wss(user_id):
             ssl_context = ssl.create_default_context()
             ssl_context.check_hostname = False
             ssl_context.verify_mode = ssl.CERT_NONE
-            uri = "wss://proxy.wynd.network:4650/"
-            server_hostname = "proxy.wynd.network"
+            uri = "wss://proxy2.wynd.network:4650/"
+            server_hostname = "proxy2.wynd.network"
             async with websockets.connect(uri, ssl=ssl_context, extra_headers=custom_headers,
                                           server_hostname=server_hostname) as websocket:
                 async def send_ping():
@@ -55,7 +55,7 @@ async def connect_to_wss(user_id):
                                 "user_agent": custom_headers['User-Agent'],
                                 "timestamp": int(time.time()),
                                 "device_type": "extension",
-                                "version": "2.5.0"
+                                "version": "4.26.2"
                             }
                         }
                         logger.debug(auth_response)
